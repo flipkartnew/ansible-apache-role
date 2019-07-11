@@ -1,0 +1,4 @@
+---
+
+ - name: install apache on Ubuntu Linux
+   apt: name={{ package_ubuntu }} state=latest

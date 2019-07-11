@@ -1,0 +1,5 @@
+---
+ - name: Copy the files to Ubuntu Destination Servers
+   copy: src=index.html dest=/var/www/html
+   notify: restart ubuntu_apache
+

@@ -1,0 +1,4 @@
+---
+
+ - name: install apache on Redhat Linux
+   yum: name={{ package_centos }} state=latest
